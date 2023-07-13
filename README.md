@@ -18,3 +18,7 @@ Project is created with:
 **Running the project:**
 
 To run this project use Jupyter Notebook or Google Colab.
+
+### Sales dashboard view:
+
+![Dashboard view](sales.jpg)
