@@ -8,6 +8,7 @@ The project allows to build interactive dashboard from sales data by using panda
 ### Project includes:
 - sales dashboard with bokeh - **bokeh_dashboard.ipynb**
 - final sales dashboard in html format - **sales_dashboard.html**
+- python script to make dashboard with bokeh - **bokeh_script.py**
 
 ### Technologies
 
