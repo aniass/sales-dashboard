@@ -4,15 +4,14 @@ from bokeh.io import output_file
 
 
 PATH = '\Datasets\supermarket_sales.csv'
-
-output_path = '\bokeh_dashboard\\sales_dashboard.html'
+OUTPUT_PATH = '\bokeh_dashboard\\sales_dashboard.html'
 
 
 def make_dashboard(path):
     '''Function to create automated dashboard with bokeh'''
        
     pandas_bokeh.output_notebook()
-    output_file(output_path)
+    output_file(OUTPUT_PATH )
     
     df = pd.read_csv(path)
     
