@@ -7,7 +7,7 @@ PATH = '\Datasets\supermarket_sales.csv'
 OUTPUT_PATH = '\bokeh_dashboard\\sales_dashboard.html'
 
 
-def make_dashboard(path):
+def create_dashboard(path):
     '''Function to create automated dashboard with bokeh'''
        
     pandas_bokeh.output_notebook()
@@ -61,4 +61,4 @@ def make_dashboard(path):
 
 
 if __name__ == '__main__':
-    make_dashboard(PATH)
+    create_dashboard(PATH)
